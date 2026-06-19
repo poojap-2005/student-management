@@ -1,6 +1,7 @@
 
 import Dashboard from "./components/Navbar";
 import Navbar from "./pages/Dashboard";
+import StudentList from "./pages/StudentList";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar/>
       <Dashboard />
+      <StudentList />
       
     </div>
   );
